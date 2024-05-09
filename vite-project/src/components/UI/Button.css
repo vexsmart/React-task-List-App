@@ -1,0 +1,19 @@
+.Button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.4em 1.2em;
+  border: 2px solid rgba(8, 161, 90, 0.63);
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover,
+.button:active {
+  background: goldenrod;
+  border-color: goldenrod;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.26);
+}
